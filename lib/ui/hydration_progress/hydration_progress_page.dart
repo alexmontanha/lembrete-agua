@@ -12,7 +12,7 @@ class HydrationProgressPage extends StatelessWidget {
           children: [
             SizedBox(width: double.infinity),
             Text(
-              "Current Hydration",
+              "Nível de Hidratação",
               style: Theme.of(context).textTheme.headline4,
             ),
             Expanded(

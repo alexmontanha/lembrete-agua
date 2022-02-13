@@ -71,12 +71,12 @@ class _ConsumptionDialogState extends State<ConsumptionDialog> {
                   Navigator.of(context).pop();
                 }
               },
-              title: "Confirm",
+              title: "Confirma",
             ),
             SizedBox(height: 10),
             SecondaryButton(
               onPressed: () => Navigator.of(context).pop(),
-              title: "Cancel",
+              title: "Cancela",
             ),
           ],
         ),

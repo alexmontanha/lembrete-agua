@@ -1,14 +1,17 @@
-# Water Reminder App
+# Lembrete de Água
 
-Android water reminder App made with Flutter using Android APIs such as DataStore and AlarmManager.
+App adaptado do template disponível em: https://github.com/fabirt/water-reminder-app?ref=flutterrepos.com
 
-Uses a native activity which is displayed when an alarm notification is triggered and the device is locked.
+De autoria de: Fabian (fabirt)
+
+App de lembrete de água, utilizado como demonstração didática, de como desenvolver um app simples para lembrete de água, inserir monetização e publicá-lo na loja da Google.
+
+Utiliza as APIs DataStore e AlarmManager.
+
+Utiliza uma Activity nativa para disparar a notificação de alarme para aviso de beber água.
 
 ## Features
 - Flutter UI: Advanced UI and animations.
 - DataStore: To store data asynchronously using Kotlin coroutines and Flow.
 - AlarmManager: Schedule repeating alarms display notifications (also full screen notification on lock screen).
 
-## Screenshots
-| ![Water summary](screenshots/pool.png) | ![Progress](screenshots/progress.png) | ![Settings](screenshots/settings.png) | ![Alarm](screenshots/alarm.png) |
-|----------|:-------------:|:-------------:|:-------------:|
